@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require('fs-extra');
 var path = require('path');
 var WebpackServeOutput = /** @class */ (function () {
@@ -23,5 +25,5 @@ function outputFiles(compilation, outputPath) {
         fs.outputFileSync(file, content);
     }
 }
-module.exports = WebpackServeOutput;
+exports.default = WebpackServeOutput;
 //# sourceMappingURL=index.js.map
