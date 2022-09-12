@@ -1,0 +1,27 @@
+{
+  "name": "webpack-serve-output",
+  "version": "1.0.0",
+  "description": "A webpack plugin that outputs the content compiled by webpack-dev-server to the file system.",
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "output",
+    "webpack serve"
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "git@github.com:zh-lx/webpack-serve-output.git",
+  "author": "zh-lx <18366276315@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
