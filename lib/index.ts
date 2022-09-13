@@ -34,4 +34,4 @@ function outputFiles(compilation, outputPath) {
   }
 }
 
-export default WebpackServeOutput;
+export = WebpackServeOutput;

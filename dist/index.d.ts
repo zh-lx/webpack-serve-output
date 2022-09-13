@@ -6,4 +6,4 @@ declare class WebpackServeOutput {
     constructor(options?: OutputOptions);
     apply(complier: any): void;
 }
-export default WebpackServeOutput;
+export = WebpackServeOutput;

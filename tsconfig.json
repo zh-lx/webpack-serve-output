@@ -1,19 +1,17 @@
 {
   "compilerOptions": {
-    "lib": ["es6", "dom"],
+    "lib": ["es6"],
     "sourceMap": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": false,
     "module": "commonjs",
-    "target": "es5",
+    "target": "ES5",
     "strictNullChecks": false,
     "suppressImplicitAnyIndexErrors": false,
-    "jsx": "react",
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "allowJs": false,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
@@ -21,6 +19,7 @@
     "resolveJsonModule": true,
     "baseUrl": "./",
     "outDir": "dist",
-    "declaration": true
+    "declaration": true,
+    "types": ["node"]
   }
 }

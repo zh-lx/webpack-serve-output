@@ -1,6 +1,6 @@
 {
   "name": "webpack-serve-output",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "A webpack plugin that outputs the content compiled by webpack-dev-server to the file system.",
   "keywords": [
     "webpack",
